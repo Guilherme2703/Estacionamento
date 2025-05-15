@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Carros para você</h1>
-</body>
+{% block content %}
+    <body>
+        <h3>{{ cars.model }}</h3>
+    </body>
+{% endblock %}
 </html>
